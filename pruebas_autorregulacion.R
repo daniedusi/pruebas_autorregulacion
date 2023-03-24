@@ -1,10 +1,10 @@
 library(flextable)
-  
-  # Crear un data frame con los valores de la tabla
-mytable <- data.frame(
-  ítems = c("1. asdflkajlsdfjañlsdj kfñalskdjfñl aksjdñlfakjsdñ flkajsñdlkfjañsldkfj", 
-            "2. asdflkajlsdfjañlsdj kfñalskdjfñl aksjdñlfakjsdñ flkajsñdlkfjañsldkfj", 
-            "item 3", 
+#Escala autoeficacia académica ----
+# Crear un data frame con los valores de la tabla
+auto_ac <- data.frame(
+  ítems = c("1. Puedo dominar incluso los materiales más dificiles si lo intento", 
+            "2. Sé que podré aprender los contenidos de mis asignaturas", 
+            "3. Puedo completar casi todas las tareas de mis asignaturas ", 
             "item 4"),
   a = c("①","①","①","①"),
   b = c("②", "②","②","②"),
@@ -13,15 +13,14 @@ mytable <- data.frame(
   e = c("⑤", "⑤", "⑤", "⑤")
 )
 
- colnames(mytable) <- c("Ítem", 
+colnames(auto_ac) <- c("Ítem", 
                        "Nada cierto sobre mi",
                        "Poco cierto sobre mi",
                        "Moderadamente cierto sobre mi",
                        "Muy cierto sobre mi",
                        "Totalmente cierto sobre mi")
 
-mytable <- flextable(mytable)
-mytable <- width(mytable, width = 20, unit = "in")
-mytable <- align(mytable, align = "center", part = "body")
-mytable <- align(mytable, j = 1, align = "left", part= "all")
-
+auto_ac <- flextable(auto_ac)
+auto_ac <- width(auto_ac, width = 20, unit = "in")
+auto_ac <- align(auto_ac, align = "center", part = "body")
+auto_ac <- align(auto_ac, j = 1, align = "left", part= "all")
