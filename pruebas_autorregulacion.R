@@ -1,5 +1,6 @@
 library(flextable)
-#Escala autoeficacia académica ----
+# Escala de Aspectos Motivacionales ----
+## Escala autoeficacia académica ----
 # Crear un data frame con los valores de la tabla
 auto_ac <- data.frame(
   ítems = c("1. Puedo dominar incluso los materiales más dificiles si lo intento", 
