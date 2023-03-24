@@ -24,3 +24,7 @@ auto_ac <- flextable(auto_ac)
 auto_ac <- width(auto_ac, width = 20, unit = "in")
 auto_ac <- align(auto_ac, align = "center", part = "body")
 auto_ac <- align(auto_ac, j = 1, align = "left", part= "all")
+
+auto_ac <- bg(auto_ac, bg = "pink", part="header", source=j)
+auto_ac <- color(auto_ac, color = "white", part = "header")
+auto_ac
