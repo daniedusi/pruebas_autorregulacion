@@ -515,3 +515,5 @@ auto_so <- bg(auto_so, bg = "white", part = "body")
 auto_so <- bg(auto_so, bg = "#7E77DA", part = "header", source = j)
 auto_so <- color(auto_so, color = "white", part = "header")
 auto_so
+
+#otro comentario
