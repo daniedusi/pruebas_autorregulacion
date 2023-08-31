@@ -516,5 +516,8 @@ auto_so <- bg(auto_so, bg = "#7E77DA", part = "header", source = j)
 auto_so <- color(auto_so, color = "white", part = "header")
 auto_so
 
-
+<<<<<<< HEAD
 #un comentario
+=======
+#otro comentario
+>>>>>>> 16ab7da59aa1e243848a279514269119a146684e
